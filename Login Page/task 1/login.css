@@ -1,0 +1,139 @@
+
+body {
+    background-image: url("images/background.jpeg");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 100vw 100vh;
+}
+
+div.transbox {
+    background: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    margin-top: 6em;
+    width: 25%;
+    padding: 20px;
+    border: 8px solid rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+}
+
+@media (max-width:1100px) {
+    div.transbox {
+        width: 60%;
+    }
+}
+
+@media (max-width:800px) {
+    div.transbox {
+        width: 80%;
+    }
+}
+
+main {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+input {         
+    width: 100%;
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=checkbox] {
+    width: inherit;   
+}
+
+input[type=submit] {
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    background-color: #4CAF50;
+    border: none;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div { 
+    text-align: center;
+    margin: 15px 0;
+}
+
+div.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:0;  
+}
+
+
+div.flex-container a:link, div.flex-container a:visited {
+    margin: 5px 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+   
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+div.flex-container>div {
+    width:30px;
+}
+
+a:link, a:visited {
+    color: LightGray;
+}
+
+a:hover, a:active {
+    color:Gainsboro;
+}
+
+fieldset {
+    border:0px; 
+    border-top:1px solid white;
+}
+
+/* It's for all the social media buttons */
+a.facebook:link, a.facebook:visited {
+    background-color: #304f85;
+}
+
+a.facebook:hover, a.facebook:active {
+    background-color: #304085;
+}
+
+a.twitter:link, a.twitter:visited {
+    background-color:	#00aced;
+}
+
+a.twitter:hover, a.twitter:active {
+    background-color:#0084b4;
+}
+
+a.google:link, a.google:visited {
+    background-color: #d62d20;
+}
+
+a.google:hover, a.google:active {
+    background-color: #d31f1c;
+}
+
+.left {
+    text-align: left;
+}

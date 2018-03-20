@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Login Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="login.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    </head>
+    <body>
+        <div class="transbox">
+            <main>
+                <header>
+                    <h1>Create account</h1>
+                </header>
+                <form>
+                    <div>
+                        <input type="email" name="email" placeholder="E-mail" required>
+                    </div>
+                    <div>
+                        <input type="password" name="password"  placeholder="Password" size="12" required>
+                    </div>
+                    <div class="left">
+                            <input type="checkbox" name="terms" id="useTerms" required>
+                            <label for="useTerms">I have read and agree to the <a href="#terms">Terms of Use</a> and <a href="#privacy">Privacy Policy</a></label>
+                    </div>
+                    <div>
+                        <input type="submit" value="Create Account">
+                    </div>
+                </form>
+                <div>
+                    <fieldset>
+                            <legend> or sign up with social media </legend>
+                    </fieldset>
+                </div>
+                <div class="flex-container">
+                        <a href="#facebook" class="facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
+                        <a href="#twitter" class="twitter"><i class="fab fa-twitter"></i> Twitter</a>
+                        <a href="#google" class="google"><i class="fab fa-google-plus-g"></i> Google</a>
+                </div>
+                <div>
+                    Already have an account? <a href="#sign-in">Sign In</a>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
